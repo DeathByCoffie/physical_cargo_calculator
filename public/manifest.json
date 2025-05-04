@@ -1,0 +1,16 @@
+{
+    "name": "SC PhysCal",
+    "description": "A physcialized cargo calculator for Star Citizen",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action":{
+
+    }
+}
